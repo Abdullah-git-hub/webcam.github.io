@@ -1,0 +1,27 @@
+#camera{
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    position: absolute;
+    opacity: 0;
+}
+#results{
+    width: 100%;
+}
+#results, #camera{
+    margin: 10px;
+}
+button{
+    padding: 10px 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+div#results {
+    font-size: 20px;
+    line-height: 500px;
+    background-position: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
